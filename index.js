@@ -22,7 +22,7 @@ connection.connect(function (err) {
 
 // Welcome 
 console.table(
-    "\n------------ EMPLOYEE TRACKER ------------\n"
+    "\n------------ mysql EMPLOYEE TRACKER ------------\n"
 )
 
 // Employee data menu
