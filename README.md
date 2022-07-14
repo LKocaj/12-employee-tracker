@@ -24,6 +24,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+<img width="1512" alt="Screen Shot 2022-07-14 at 12 25 30 AM" src="https://user-images.githubusercontent.com/99697175/178899043-f9c0967f-8abd-4fd9-a619-07880848fbc7.png">
 
 
 AS A business owner <br><br>
