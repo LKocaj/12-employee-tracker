@@ -76,8 +76,10 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- CONTACT -->
 ## Contact
 
-Youtube demo: https://www.youtube.com/channel/UCT9VNw7nEAY0jqPlHM6zlSw
+Youtube demo: https://www.youtube.com/channel/UCT9VNw7nEAY0jqPlHM6zlSw 
+<br>
 Github: https://github.com/LKocaj
+<br>
 Linkedin: Lawrence Kocaj
 
 <p align="right">(<a href="#top">back to top</a>)</p>
