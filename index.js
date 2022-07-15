@@ -68,7 +68,7 @@ function askQuestions() {
     })
 }
 
-// employee
+// Select an employee
 
 function viewEmployees() {
     connection.query("SELECT * FROM employee", function (err, data) {
@@ -77,7 +77,7 @@ function viewEmployees() {
     })
 }
 
-// departments
+// View departments
 
 function viewDepartments() {
     connection.query("SELECT * FROM department", function (err, data) {
