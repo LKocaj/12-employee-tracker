@@ -2,6 +2,8 @@ const mysql = require('mysql2');
 const inquirer = require("inquirer");
 const table = require("console.table");
 
+//sql connect
+
 var connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
@@ -15,6 +17,8 @@ connection.connect(function (err) {
     console.log("connected as id " + connection.threadId + "\n");
     askQuestions();
 });
+
+// View employee data with questions
 
 function askQuestions() {
     inquirer.prompt({
@@ -64,6 +68,8 @@ function askQuestions() {
     })
 }
 
+// employee
+
 function viewEmployees() {
     connection.query("SELECT * FROM employee", function (err, data) {
         console.table(data);
@@ -71,12 +77,16 @@ function viewEmployees() {
     })
 }
 
+// departments
+
 function viewDepartments() {
     connection.query("SELECT * FROM department", function (err, data) {
         console.table(data);
         askQuestions();
     })
 }
+
+// Add employee to database
 
 function addEmployee() {
     inquirer.prompt([{
@@ -108,6 +118,8 @@ function addEmployee() {
     })
 }
 
+// Add a new department
+
 function addDepartment() {
     inquirer.prompt([{
         type: "input",
@@ -121,6 +133,8 @@ function addDepartment() {
         })
     })
 }
+
+// Add employee role
 
 function addRole() {
     inquirer.prompt([
@@ -145,6 +159,7 @@ function addRole() {
     })
 
 }
+// Update current role
 
 function updateEmployeeRole() {
     inquirer.prompt([
